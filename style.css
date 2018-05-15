@@ -1,0 +1,84 @@
+.container{
+  border-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  display: flex;
+  padding: 20px;
+  align-self: center;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.logo{
+  display: inline-flex;
+  width: 10%;
+  height: 10%;
+}
+
+.logo_img {
+  width: 100%;
+  height: 100%;
+}
+
+.title p{
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.big_image {
+    display: flex;
+    padding-top: 1em;
+    justify-content: center;
+    width: 100%
+}
+
+.code {
+    display: inline-flex;
+    width: 60%
+}
+
+.title2 {
+    color: darkgray;
+    font-family: "Roboto";
+    display: flex;
+}
+
+.contenedor{
+      display: inline-flex;
+      padding-top: 20px;
+      padding-left: 19.5%;
+      align-self: center;
+      margin-left: auto;
+}
+
+.works{
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid red;
+    justify-content: space-between;
+}
+
+.movies{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.excursion {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.secret{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.exp{
+    width: 100%;
+    border: 2px solid blue;
+    align-self: center;
+}
