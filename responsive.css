@@ -10,7 +10,13 @@
 }
 
 .logo{
-  display: none;
+    display: block;
+    width: 20%;
+    height: 20%;
+}
+
+.logo_img{
+    width: 100%;
 }
 
 .title p{

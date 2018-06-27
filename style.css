@@ -1,29 +1,28 @@
 .container{
-  border-bottom: 5px;
-  border-bottom-style: solid;
-  border-bottom-color: lightgray;
-  display: flex;
-  padding: 20px;
-  align-self: center;
-  justify-content: space-between;
-  margin-left: auto;
+    border-bottom: 5px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    display: flex;
+    padding: 20px;
+    align-self: center;
+    justify-content: space-between;
+    margin-left: auto;
 }
 
-.logo{
-  display: inline-flex;
-  width: 10%;
-  height: 10%;
+.logo {
+    display: inline-flex;
+    width: 10%;
+    height: 10%;
 }
 
 .logo_img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
-.title p{
-  font-family: "Roboto";
-  font-size: 1.2rem;
-  text-align: right;
+.title p {
+    font-size: 1.2rem;
+    text-align: right;
 }
 
 .big_image {
@@ -34,22 +33,22 @@
 }
 
 .code {
+    align-self: center;
     display: inline-flex;
     width: 60%
 }
 
 .title2 {
     color: darkgray;
-    font-family: "Roboto";
     display: flex;
 }
 
 .contenedor{
-      display: inline-flex;
-      padding-top: 20px;
-      padding-left: 19.5%;
-      align-self: center;
-      margin-left: auto;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 19.5%;
+    align-self: center;
+    margin-left: auto;
 }
 
 .info {
@@ -90,10 +89,110 @@
 .expesp{
     width: 100%;
     align-self: center;
-    margin: 2.7rem 0rem;
+    margin-top: 2.7rem;
+    margin-bottom: 2.7rem;
 }
 
-.excursion p {
-    margin: 1rem 0rem;
-
+.excursion p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
+
+@media screen and (min-width: 360px) and (max-width: 759px) {
+    .logo{
+        display: block;
+        width: 20%;
+        height: 20%;
+    }
+
+    .logo_img{
+        width: 100%;
+    }
+
+    .big_image {
+        margin:auto;
+    }
+
+    .code {
+        width: 100%;
+    }
+
+    .subti{
+        justify-content: center;
+    }
+
+    .contenedor {
+        padding-top: 20px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .works {
+        flex-direction: column;
+        width: 100% ;
+    }
+
+    .movies {
+        width: 100%;
+    }
+
+    .excursion {
+        width: 100%;
+    }
+
+    .secret {
+        width: 100%;
+    }
+
+    .expesp {
+        width: 100%;
+        align-self: center;
+    }
+
+    .excursion p{
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1189px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    .code {
+        align-self: center;
+        width: 60%;
+    }
+
+    .contenedor {
+        padding-left: 19.5%;
+    }
+
+    .info p {
+        font-size: 2.5rem
+    }
+
+    .works {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .movies {
+        width: 80%;
+    }
+
+    .excursion {
+        width: 30%;
+    }
+
+    .secret {
+        width: 30%;
+    }
+
+    .exp {
+        width: 30%;
+    }
+}
+
